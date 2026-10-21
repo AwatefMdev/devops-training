@@ -1,0 +1,9 @@
+services:
+  api:
+    build: .
+    image: devops-training:local
+    ports:
+      - "3000:3000"
+    environment:
+      APP_VERSION: local
+    restart: unless-stopped

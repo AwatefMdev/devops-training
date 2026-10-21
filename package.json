@@ -1,0 +1,17 @@
+{
+  "name": "devops-training",
+  "version": "1.0.0",
+  "description": "A small Node.js API used to practise Docker, docker-compose and CI/CD with GitHub Actions",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
